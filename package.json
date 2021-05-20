@@ -1,0 +1,21 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "A simple chat room where you can create a room to chat with multiple users and as soon as every user leaves the room the room automatically gets deleted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev" : "nodemon server"
+  },
+  "author": "Draco (harsh shrivastava)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
